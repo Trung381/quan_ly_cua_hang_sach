@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02534397-EB69-460D-B94D-EAAFC27EBB4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>quan_ly_cua_hang_sach</RootNamespace>
+    <AssemblyName>quan_ly_cua_hang_sach</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBSQLServerUtils.cs" />
+    <Compile Include="DBUtils.cs" />
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLBH.Designer.cs">
+      <DependentUpon>FrmQLBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLKH.Designer.cs">
+      <DependentUpon>FrmQLKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLSP.Designer.cs">
+      <DependentUpon>FrmQLSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTK.Designer.cs">
+      <DependentUpon>FrmTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmQLNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLNXB.Designer.cs">
+      <DependentUpon>FrmQLNXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLTG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLTG.Designer.cs">
+      <DependentUpon>FrmQLTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLTL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLTL.Designer.cs">
+      <DependentUpon>FrmQLTL.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLBH.resx">
+      <DependentUpon>FrmQLBH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLKH.resx">
+      <DependentUpon>FrmQLKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLNXB.resx">
+      <DependentUpon>FrmQLNXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLSP.resx">
+      <DependentUpon>FrmQLSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLTG.resx">
+      <DependentUpon>FrmQLTG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLTL.resx">
+      <DependentUpon>FrmQLTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

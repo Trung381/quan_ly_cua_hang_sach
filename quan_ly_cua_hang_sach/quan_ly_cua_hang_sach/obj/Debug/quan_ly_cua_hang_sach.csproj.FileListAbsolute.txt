@@ -1,0 +1,15 @@
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.csproj.AssemblyReference.cache
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.FormMenu.resources
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.Properties.Resources.resources
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.csproj.GenerateResource.cache
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.csproj.CoreCompileInputs.cache
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\bin\Debug\quan_ly_cua_hang_sach.exe
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\bin\Debug\quan_ly_cua_hang_sach.pdb
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.exe
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.pdb
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.FrmQLSP.resources
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.FrmQLKH.resources
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.FrmQLBH.resources
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.FrmQLTL.resources
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.FrmQLNXB.resources
+C:\Users\Trung\Documents\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\quan_ly_cua_hang_sach\obj\Debug\quan_ly_cua_hang_sach.FrmQLTG.resources
