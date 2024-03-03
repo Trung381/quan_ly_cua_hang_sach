@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace quan_ly_cua_hang_sach
 {
@@ -18,6 +19,35 @@ namespace quan_ly_cua_hang_sach
 
             String sqlKH = "Select * from KhachHang";
             Helper.UploadData_To_DataGridView(sqlKH, dGVQLKH);
+        }
+
+        //xóa dữ liệu trong control (trong quản lý KH)
+        private void delete_data_control_kh()
+        {
+            tbMaKH.Clear();
+            tbNameKH.Clear();
+            tbSDT.Clear();
+            tbNgaySinh.Clear();
+
+            dGVQLKH.ClearSelection();
+        }
+
+
+        private void dGVQLKH_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = e.RowIndex;
+            // bản ko trống
+            if (index != -1)
+            {
+                tbMaKH.Text = dGVQLKH.Rows[index].Cells[0].Value.ToString().Trim();
+                tbNameKH.Text = dGVQLKH.Rows[index].Cells[1].Value.ToString();
+                tbSDT.Text = dGVQLKH.Rows[index].Cells[2].Value.ToString();
+                tbNgaySinh.Text = dGVQLKH.Rows[index].Cells[3].Value.ToString();
+            }
+            else
+            {
+                delete_data_control_kh();
+            }
         }
     }
 }

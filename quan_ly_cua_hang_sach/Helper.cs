@@ -26,6 +26,7 @@ namespace quan_ly_cua_hang_sach
             dataGridView_n.DataSource = table;
             dataGridView_n.ClearSelection();
         }
+
     }
 
 }
