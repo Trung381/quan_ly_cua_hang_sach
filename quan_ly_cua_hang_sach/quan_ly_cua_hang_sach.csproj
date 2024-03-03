@@ -96,6 +96,7 @@
     <Compile Include="FrmQLTL.Designer.cs">
       <DependentUpon>FrmQLTL.cs</DependentUpon>
     </Compile>
+    <Compile Include="temp.cs" />
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>

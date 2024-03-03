@@ -18,7 +18,7 @@ namespace quan_ly_cua_hang_sach
 
 
             String sqlKH = "Select * from KhachHang";
-            Helper.UploadData_To_DataGridView(sqlKH, dGVQLKH);
+            Helper.UploadData_To_DataGridView(sqlKH, dgvQLKH);
         }
 
         //xóa dữ liệu trong control (trong quản lý KH)
@@ -29,7 +29,7 @@ namespace quan_ly_cua_hang_sach
             tbSDT.Clear();
             tbNgaySinh.Clear();
 
-            dGVQLKH.ClearSelection();
+            dgvQLKH.ClearSelection();
         }
 
 
@@ -39,10 +39,10 @@ namespace quan_ly_cua_hang_sach
             // bản ko trống
             if (index != -1)
             {
-                tbMaKH.Text = dGVQLKH.Rows[index].Cells[0].Value.ToString().Trim();
-                tbNameKH.Text = dGVQLKH.Rows[index].Cells[1].Value.ToString();
-                tbSDT.Text = dGVQLKH.Rows[index].Cells[2].Value.ToString();
-                tbNgaySinh.Text = dGVQLKH.Rows[index].Cells[3].Value.ToString();
+                tbMaKH.Text = dgvQLKH.Rows[index].Cells[0].Value.ToString().Trim();
+                tbNameKH.Text = dgvQLKH.Rows[index].Cells[1].Value.ToString();
+                tbSDT.Text = dgvQLKH.Rows[index].Cells[2].Value.ToString();
+                tbNgaySinh.Text = dgvQLKH.Rows[index].Cells[3].Value.ToString();
             }
             else
             {

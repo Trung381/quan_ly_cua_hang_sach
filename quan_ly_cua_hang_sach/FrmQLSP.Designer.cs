@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dGVQLSP = new System.Windows.Forms.DataGridView();
+            this.dgvQLSP = new System.Windows.Forms.DataGridView();
             this.cbbCategory = new System.Windows.Forms.ComboBox();
             this.lbCategory = new System.Windows.Forms.Label();
             this.lbAuthor = new System.Windows.Forms.Label();
@@ -52,19 +52,19 @@
             this.btAddSach = new System.Windows.Forms.Button();
             this.btDelSach = new System.Windows.Forms.Button();
             this.btEditSach = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLSP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLSP)).BeginInit();
             this.SuspendLayout();
             // 
-            // dGVQLSP
+            // dgvQLSP
             // 
-            this.dGVQLSP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVQLSP.Location = new System.Drawing.Point(16, 397);
-            this.dGVQLSP.Name = "dGVQLSP";
-            this.dGVQLSP.RowHeadersWidth = 62;
-            this.dGVQLSP.RowTemplate.Height = 28;
-            this.dGVQLSP.Size = new System.Drawing.Size(1191, 300);
-            this.dGVQLSP.TabIndex = 0;
-            this.dGVQLSP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLSP_CellClick);
+            this.dgvQLSP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQLSP.Location = new System.Drawing.Point(16, 397);
+            this.dgvQLSP.Name = "dgvQLSP";
+            this.dgvQLSP.RowHeadersWidth = 62;
+            this.dgvQLSP.RowTemplate.Height = 28;
+            this.dgvQLSP.Size = new System.Drawing.Size(1191, 300);
+            this.dgvQLSP.TabIndex = 0;
+            this.dgvQLSP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLSP_CellClick);
             // 
             // cbbCategory
             // 
@@ -244,7 +244,6 @@
             this.btAddSach.TabIndex = 30;
             this.btAddSach.Text = "Thêm sách";
             this.btAddSach.UseVisualStyleBackColor = true;
-            //this.btAddSach.Click += new System.EventHandler(this.btAddSach_Click);
             // 
             // btDelSach
             // 
@@ -292,10 +291,10 @@
             this.Controls.Add(this.cbbAuthor);
             this.Controls.Add(this.lbCategory);
             this.Controls.Add(this.cbbCategory);
-            this.Controls.Add(this.dGVQLSP);
+            this.Controls.Add(this.dgvQLSP);
             this.Name = "FrmQLSP";
             this.Text = "FrmQLSP";
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLSP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLSP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,7 +302,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dGVQLSP;
+        private System.Windows.Forms.DataGridView dgvQLSP;
         private System.Windows.Forms.ComboBox cbbCategory;
         private System.Windows.Forms.Label lbCategory;
         private System.Windows.Forms.Label lbAuthor;

@@ -31,12 +31,12 @@
             this.bt_del_nxb = new System.Windows.Forms.Button();
             this.bt_edit_nxb = new System.Windows.Forms.Button();
             this.bt_add_nxb = new System.Windows.Forms.Button();
-            this.dGVQLNXB = new System.Windows.Forms.DataGridView();
+            this.dgvQLNXB = new System.Windows.Forms.DataGridView();
             this.lbMaNXB = new System.Windows.Forms.Label();
             this.lbNameNXB = new System.Windows.Forms.Label();
             this.tbMaNXB = new System.Windows.Forms.TextBox();
             this.tbNameNXB = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLNXB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLNXB)).BeginInit();
             this.SuspendLayout();
             // 
             // bt_del_nxb
@@ -47,6 +47,7 @@
             this.bt_del_nxb.TabIndex = 18;
             this.bt_del_nxb.Text = "Xóa nxb";
             this.bt_del_nxb.UseVisualStyleBackColor = true;
+            this.bt_del_nxb.Click += new System.EventHandler(this.bt_del_nxb_Click);
             // 
             // bt_edit_nxb
             // 
@@ -56,6 +57,7 @@
             this.bt_edit_nxb.TabIndex = 17;
             this.bt_edit_nxb.Text = "Sửa nxb";
             this.bt_edit_nxb.UseVisualStyleBackColor = true;
+            this.bt_edit_nxb.Click += new System.EventHandler(this.bt_edit_nxb_Click);
             // 
             // bt_add_nxb
             // 
@@ -67,16 +69,16 @@
             this.bt_add_nxb.UseVisualStyleBackColor = true;
             this.bt_add_nxb.Click += new System.EventHandler(this.bt_add_nxb_Click);
             // 
-            // dGVQLNXB
+            // dgvQLNXB
             // 
-            this.dGVQLNXB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVQLNXB.Location = new System.Drawing.Point(12, 321);
-            this.dGVQLNXB.Name = "dGVQLNXB";
-            this.dGVQLNXB.RowHeadersWidth = 62;
-            this.dGVQLNXB.RowTemplate.Height = 28;
-            this.dGVQLNXB.Size = new System.Drawing.Size(1134, 238);
-            this.dGVQLNXB.TabIndex = 19;
-            this.dGVQLNXB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLNXB_CellClick);
+            this.dgvQLNXB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQLNXB.Location = new System.Drawing.Point(12, 321);
+            this.dgvQLNXB.Name = "dgvQLNXB";
+            this.dgvQLNXB.RowHeadersWidth = 62;
+            this.dgvQLNXB.RowTemplate.Height = 28;
+            this.dgvQLNXB.Size = new System.Drawing.Size(1134, 238);
+            this.dgvQLNXB.TabIndex = 19;
+            this.dgvQLNXB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLNXB_CellClick);
             // 
             // lbMaNXB
             // 
@@ -119,13 +121,13 @@
             this.Controls.Add(this.tbMaNXB);
             this.Controls.Add(this.lbNameNXB);
             this.Controls.Add(this.lbMaNXB);
-            this.Controls.Add(this.dGVQLNXB);
+            this.Controls.Add(this.dgvQLNXB);
             this.Controls.Add(this.bt_del_nxb);
             this.Controls.Add(this.bt_edit_nxb);
             this.Controls.Add(this.bt_add_nxb);
             this.Name = "FrmQLNXB";
             this.Text = "QLNXB";
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLNXB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLNXB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,7 +138,7 @@
         private System.Windows.Forms.Button bt_del_nxb;
         private System.Windows.Forms.Button bt_edit_nxb;
         private System.Windows.Forms.Button bt_add_nxb;
-        private System.Windows.Forms.DataGridView dGVQLNXB;
+        private System.Windows.Forms.DataGridView dgvQLNXB;
         private System.Windows.Forms.Label lbMaNXB;
         private System.Windows.Forms.Label lbNameNXB;
         private System.Windows.Forms.TextBox tbMaNXB;

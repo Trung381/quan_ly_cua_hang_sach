@@ -31,12 +31,12 @@
             this.bt_del_category = new System.Windows.Forms.Button();
             this.bt_edit_category = new System.Windows.Forms.Button();
             this.bt_add_category = new System.Windows.Forms.Button();
-            this.dGVQLTL = new System.Windows.Forms.DataGridView();
+            this.dgvQLTL = new System.Windows.Forms.DataGridView();
             this.tbNameTL = new System.Windows.Forms.TextBox();
             this.tbMaTL = new System.Windows.Forms.TextBox();
             this.lbNameTL = new System.Windows.Forms.Label();
             this.lbMaTL = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLTL)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLTL)).BeginInit();
             this.SuspendLayout();
             // 
             // bt_del_category
@@ -67,16 +67,16 @@
             this.bt_add_category.UseVisualStyleBackColor = true;
             this.bt_add_category.Click += new System.EventHandler(this.bt_add_category_Click);
             // 
-            // dGVQLTL
+            // dgvQLTL
             // 
-            this.dGVQLTL.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVQLTL.Location = new System.Drawing.Point(12, 293);
-            this.dGVQLTL.Name = "dGVQLTL";
-            this.dGVQLTL.RowHeadersWidth = 62;
-            this.dGVQLTL.RowTemplate.Height = 28;
-            this.dGVQLTL.Size = new System.Drawing.Size(776, 145);
-            this.dGVQLTL.TabIndex = 13;
-            this.dGVQLTL.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLTL_CellClick);
+            this.dgvQLTL.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQLTL.Location = new System.Drawing.Point(12, 293);
+            this.dgvQLTL.Name = "dgvQLTL";
+            this.dgvQLTL.RowHeadersWidth = 62;
+            this.dgvQLTL.RowTemplate.Height = 28;
+            this.dgvQLTL.Size = new System.Drawing.Size(776, 145);
+            this.dgvQLTL.TabIndex = 13;
+            this.dgvQLTL.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLTL_CellClick);
             // 
             // tbNameTL
             // 
@@ -120,13 +120,13 @@
             this.Controls.Add(this.tbMaTL);
             this.Controls.Add(this.lbNameTL);
             this.Controls.Add(this.lbMaTL);
-            this.Controls.Add(this.dGVQLTL);
+            this.Controls.Add(this.dgvQLTL);
             this.Controls.Add(this.bt_del_category);
             this.Controls.Add(this.bt_edit_category);
             this.Controls.Add(this.bt_add_category);
             this.Name = "FrmQLTL";
             this.Text = "QLTL";
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLTL)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLTL)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,7 +137,7 @@
         private System.Windows.Forms.Button bt_del_category;
         private System.Windows.Forms.Button bt_edit_category;
         private System.Windows.Forms.Button bt_add_category;
-        private System.Windows.Forms.DataGridView dGVQLTL;
+        private System.Windows.Forms.DataGridView dgvQLTL;
         private System.Windows.Forms.TextBox tbNameTL;
         private System.Windows.Forms.TextBox tbMaTL;
         private System.Windows.Forms.Label lbNameTL;

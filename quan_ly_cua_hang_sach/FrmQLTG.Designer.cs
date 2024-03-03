@@ -31,12 +31,12 @@
             this.bt_del_author = new System.Windows.Forms.Button();
             this.bt_edit_author = new System.Windows.Forms.Button();
             this.bt_add_author = new System.Windows.Forms.Button();
-            this.dGVQLTG = new System.Windows.Forms.DataGridView();
+            this.dgvQLTG = new System.Windows.Forms.DataGridView();
             this.tbNameAuthor = new System.Windows.Forms.TextBox();
             this.tbMaAuthor = new System.Windows.Forms.TextBox();
             this.lbNameAuthor = new System.Windows.Forms.Label();
             this.lbMaAuthor = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLTG)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLTG)).BeginInit();
             this.SuspendLayout();
             // 
             // bt_del_author
@@ -67,16 +67,16 @@
             this.bt_add_author.UseVisualStyleBackColor = true;
             this.bt_add_author.Click += new System.EventHandler(this.bt_add_author_Click);
             // 
-            // dGVQLTG
+            // dgvQLTG
             // 
-            this.dGVQLTG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVQLTG.Location = new System.Drawing.Point(12, 285);
-            this.dGVQLTG.Name = "dGVQLTG";
-            this.dGVQLTG.RowHeadersWidth = 62;
-            this.dGVQLTG.RowTemplate.Height = 28;
-            this.dGVQLTG.Size = new System.Drawing.Size(776, 153);
-            this.dGVQLTG.TabIndex = 16;
-            this.dGVQLTG.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLTG_CellClick);
+            this.dgvQLTG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQLTG.Location = new System.Drawing.Point(12, 285);
+            this.dgvQLTG.Name = "dgvQLTG";
+            this.dgvQLTG.RowHeadersWidth = 62;
+            this.dgvQLTG.RowTemplate.Height = 28;
+            this.dgvQLTG.Size = new System.Drawing.Size(776, 153);
+            this.dgvQLTG.TabIndex = 16;
+            this.dgvQLTG.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLTG_CellClick);
             // 
             // tbNameAuthor
             // 
@@ -119,13 +119,13 @@
             this.Controls.Add(this.tbMaAuthor);
             this.Controls.Add(this.lbNameAuthor);
             this.Controls.Add(this.lbMaAuthor);
-            this.Controls.Add(this.dGVQLTG);
+            this.Controls.Add(this.dgvQLTG);
             this.Controls.Add(this.bt_del_author);
             this.Controls.Add(this.bt_edit_author);
             this.Controls.Add(this.bt_add_author);
             this.Name = "FrmQLTG";
             this.Text = "QLTG";
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLTG)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLTG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,7 +136,7 @@
         private System.Windows.Forms.Button bt_del_author;
         private System.Windows.Forms.Button bt_edit_author;
         private System.Windows.Forms.Button bt_add_author;
-        private System.Windows.Forms.DataGridView dGVQLTG;
+        private System.Windows.Forms.DataGridView dgvQLTG;
         private System.Windows.Forms.TextBox tbNameAuthor;
         private System.Windows.Forms.TextBox tbMaAuthor;
         private System.Windows.Forms.Label lbNameAuthor;

@@ -16,7 +16,7 @@ namespace quan_ly_cua_hang_sach
             InitializeComponent();
 
             String sqlBook = "Select * from Book";
-            Helper.UploadData_To_DataGridView(sqlBook, dGVQLBH_cur);
+            Helper.UploadData_To_DataGridView(sqlBook, dgvQLBH_cur);
         }
     }
 }

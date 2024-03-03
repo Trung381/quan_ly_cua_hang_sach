@@ -18,7 +18,7 @@ namespace quan_ly_cua_hang_sach
             InitializeComponent();
 
             String sqlTL = "Select * from Category";
-            Helper.UploadData_To_DataGridView(sqlTL, dGVQLTL);
+            Helper.UploadData_To_DataGridView(sqlTL, dgvQLTL);
         }
 
         private void delete_data_control_TG()
@@ -27,7 +27,7 @@ namespace quan_ly_cua_hang_sach
             tbNameTL.Clear();
 
 
-            dGVQLTL.ClearSelection();
+            dgvQLTL.ClearSelection();
         }
 
 
@@ -37,8 +37,8 @@ namespace quan_ly_cua_hang_sach
             // bản ko trống
             if (index != -1)
             {
-                tbMaTL.Text = dGVQLTL.Rows[index].Cells[0].Value.ToString().Trim();
-                tbNameTL.Text = dGVQLTL.Rows[index].Cells[1].Value.ToString();
+                tbMaTL.Text = dgvQLTL.Rows[index].Cells[0].Value.ToString().Trim();
+                tbNameTL.Text = dgvQLTL.Rows[index].Cells[1].Value.ToString();
             }
             else
             {
@@ -119,7 +119,7 @@ namespace quan_ly_cua_hang_sach
                     SqlCommand cmd = new SqlCommand(data_insert, conn);
                     cmd.ExecuteNonQuery();
 
-                    Helper.UploadData_To_DataGridView("select * from NXB", dGVQLTL);
+                    Helper.UploadData_To_DataGridView("select * from NXB", dgvQLTL);
                     delete_data_control_TG();
                     conn.Close();
                 }

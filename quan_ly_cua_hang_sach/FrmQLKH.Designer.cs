@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dGVQLKH = new System.Windows.Forms.DataGridView();
+            this.dgvQLKH = new System.Windows.Forms.DataGridView();
             this.lbMaKH = new System.Windows.Forms.Label();
             this.lbNameKH = new System.Windows.Forms.Label();
             this.lbSDT = new System.Windows.Forms.Label();
@@ -40,19 +40,19 @@
             this.btAddKH = new System.Windows.Forms.Button();
             this.btEditKH = new System.Windows.Forms.Button();
             this.btDelKH = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLKH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLKH)).BeginInit();
             this.SuspendLayout();
             // 
-            // dGVQLKH
+            // dgvQLKH
             // 
-            this.dGVQLKH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVQLKH.Location = new System.Drawing.Point(12, 432);
-            this.dGVQLKH.Name = "dGVQLKH";
-            this.dGVQLKH.RowHeadersWidth = 62;
-            this.dGVQLKH.RowTemplate.Height = 28;
-            this.dGVQLKH.Size = new System.Drawing.Size(1267, 241);
-            this.dGVQLKH.TabIndex = 0;
-            this.dGVQLKH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLKH_CellClick);
+            this.dgvQLKH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQLKH.Location = new System.Drawing.Point(12, 432);
+            this.dgvQLKH.Name = "dgvQLKH";
+            this.dgvQLKH.RowHeadersWidth = 62;
+            this.dgvQLKH.RowTemplate.Height = 28;
+            this.dgvQLKH.Size = new System.Drawing.Size(1267, 241);
+            this.dgvQLKH.TabIndex = 0;
+            this.dgvQLKH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVQLKH_CellClick);
             // 
             // lbMaKH
             // 
@@ -161,10 +161,10 @@
             this.Controls.Add(this.lbSDT);
             this.Controls.Add(this.lbNameKH);
             this.Controls.Add(this.lbMaKH);
-            this.Controls.Add(this.dGVQLKH);
+            this.Controls.Add(this.dgvQLKH);
             this.Name = "FrmQLKH";
             this.Text = "FrmQLKH";
-            ((System.ComponentModel.ISupportInitialize)(this.dGVQLKH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQLKH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,7 +172,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dGVQLKH;
+        private System.Windows.Forms.DataGridView dgvQLKH;
         private System.Windows.Forms.Label lbMaKH;
         private System.Windows.Forms.Label lbNameKH;
         private System.Windows.Forms.Label lbSDT;

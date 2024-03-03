@@ -18,7 +18,7 @@ namespace quan_ly_cua_hang_sach
             InitializeComponent();
 
             String sqlBook = "Select * from Book";
-            Helper.UploadData_To_DataGridView(sqlBook, dGVQLSP);
+            Helper.UploadData_To_DataGridView(sqlBook, dgvQLSP);
         }
 
         private void btQLTL_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace quan_ly_cua_hang_sach
             cbbNXB.Text = "";
 
 
-            dGVQLSP.ClearSelection();
+            dgvQLSP.ClearSelection();
         }
 
         private void dGVQLSP_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -59,13 +59,13 @@ namespace quan_ly_cua_hang_sach
             // bản ko trống
             if (index != -1)
             {
-                tbMa.Text = dGVQLSP.Rows[index].Cells[0].Value.ToString().Trim();
-                tbName.Text = dGVQLSP.Rows[index].Cells[1].Value.ToString();
-                tbYear.Text = dGVQLSP.Rows[index].Cells[2].Value.ToString();
-                tbSL.Text = dGVQLSP.Rows[index].Cells[3].Value.ToString();
-                tbAmount.Text = dGVQLSP.Rows[index].Cells[4].Value.ToString();
-                cbbCategory.Text = dGVQLSP.Rows[index].Cells[5].Value.ToString();
-                cbbNXB.Text = dGVQLSP.Rows[index].Cells[6].Value.ToString();
+                tbMa.Text = dgvQLSP.Rows[index].Cells[0].Value.ToString().Trim();
+                tbName.Text = dgvQLSP.Rows[index].Cells[1].Value.ToString();
+                tbYear.Text = dgvQLSP.Rows[index].Cells[2].Value.ToString();
+                tbSL.Text = dgvQLSP.Rows[index].Cells[3].Value.ToString();
+                tbAmount.Text = dgvQLSP.Rows[index].Cells[4].Value.ToString();
+                cbbCategory.Text = dgvQLSP.Rows[index].Cells[5].Value.ToString();
+                cbbNXB.Text = dgvQLSP.Rows[index].Cells[6].Value.ToString();
             }
             else
             {
@@ -152,6 +152,11 @@ namespace quan_ly_cua_hang_sach
                 return false;
             }
         }
+
+        //private void dGVQLSP_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        //{
+
+        //}
 
 
         //thêm sách

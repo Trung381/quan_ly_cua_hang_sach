@@ -18,7 +18,7 @@ namespace quan_ly_cua_hang_sach
             InitializeComponent();
 
             String sqlTG = "Select * from Author";
-            Helper.UploadData_To_DataGridView(sqlTG, dGVQLTG);
+            Helper.UploadData_To_DataGridView(sqlTG, dgvQLTG);
         }
 
         private void delete_data_control_TG()
@@ -27,7 +27,7 @@ namespace quan_ly_cua_hang_sach
             tbNameAuthor.Clear();
 
 
-            dGVQLTG.ClearSelection();
+            dgvQLTG.ClearSelection();
         }
 
         private void dGVQLTG_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -36,8 +36,8 @@ namespace quan_ly_cua_hang_sach
             // bản ko trống
             if (index != -1)
             {
-                tbMaAuthor.Text = dGVQLTG.Rows[index].Cells[0].Value.ToString().Trim();
-                tbNameAuthor.Text = dGVQLTG.Rows[index].Cells[1].Value.ToString();
+                tbMaAuthor.Text = dgvQLTG.Rows[index].Cells[0].Value.ToString().Trim();
+                tbNameAuthor.Text = dgvQLTG.Rows[index].Cells[1].Value.ToString();
             }
             else
             {
@@ -118,7 +118,7 @@ namespace quan_ly_cua_hang_sach
                     SqlCommand cmd = new SqlCommand(data_insert, conn);
                     cmd.ExecuteNonQuery();
 
-                    Helper.UploadData_To_DataGridView("select * from NXB", dGVQLTG);
+                    Helper.UploadData_To_DataGridView("select * from NXB", dgvQLTG);
                     delete_data_control_TG();
                     conn.Close();
                 }
