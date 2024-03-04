@@ -10,7 +10,7 @@ namespace quan_ly_cua_hang_sach
     {
         public static SqlConnection GetDBConnection()
         {
-            string datasource = @"THU-NGAN\TRUNG";
+            string datasource = @"DESKTOP-7ABSJC3";
             string database = "QUANLYBANSACH";
             string username = "sa";
             string password = "2004";

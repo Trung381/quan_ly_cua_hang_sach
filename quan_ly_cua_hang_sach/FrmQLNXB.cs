@@ -111,13 +111,13 @@ namespace quan_ly_cua_hang_sach
             if (checkData_control_input_NXB())
             {
                 //Kiểm tra mã sách có bị trùng hay không
-                string sqlquery_command_addNXB = "select [name] from NXB where ([name] = '" + tbNameNXB.Text + "')";
+                string sqlquery_command_addNXB = "select [name] from NXB where ([name] = N'" + tbNameNXB.Text + "')";
 
                 if (check_for_duplicate_information(sqlquery_command_addNXB) == false)     //nếu mã sách chưa có thì thực hiện thêm dữ liệu sách mới vào CSDL
                 {
                     //thêm dữ liệu
                     conn.Open();
-                    string data_insert = "insert into NXB values('" + tbNameNXB.Text.Trim() + "')";
+                    string data_insert = "insert into NXB values(N'" + tbNameNXB.Text.Trim() + "')";
                     //Console.WriteLine(data_insert);
                     SqlCommand cmd = new SqlCommand(data_insert, conn);
                     cmd.ExecuteNonQuery();
@@ -145,7 +145,7 @@ namespace quan_ly_cua_hang_sach
             {
                 if(checkData_control_input_NXB())
                 {
-                    string sqlquery_command_editNXB = "select [name] from NXB where ([name] = '" + tbNameNXB.Text + "')";
+                    string sqlquery_command_editNXB = "select [name] from NXB where ([name] = N'" + tbNameNXB.Text + "')";
                     string update_NXB;
 
                     if (check_for_duplicate_information(sqlquery_command_editNXB) == true)
@@ -158,8 +158,9 @@ namespace quan_ly_cua_hang_sach
                         //string data_insert = "insert into NXB values('" + tbNameNXB.Text.Trim() + "')";
                         //Console.WriteLine(data_insert);
                         update_NXB = "update NXB " +
-                                           "set [name] = '" + tbNameNXB.Text.Trim() + "'" +
-                                           "where( [name] = '" + dgvQLNXB.Rows[dgvQLNXB.CurrentCell.RowIndex].Cells[1].Value.ToString() + "')";
+                                           "set [name] = N'" + tbNameNXB.Text.Trim() + "'" +
+                                           "where( [name] = N'" + dgvQLNXB.Rows[dgvQLNXB.CurrentCell.RowIndex].Cells[1].Value.ToString() + "')";
+                        //Console.WriteLine(update_NXB);
                         SqlCommand cmd = new SqlCommand(update_NXB, conn);
                         cmd.ExecuteNonQuery();
                         conn.Close();

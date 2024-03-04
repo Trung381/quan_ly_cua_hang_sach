@@ -20,6 +20,7 @@ namespace quan_ly_cua_hang_sach
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FormMenu());
+            //Console.WriteLine("dit me appl");
             Application.Run(new FrmQLNXB());
 
 

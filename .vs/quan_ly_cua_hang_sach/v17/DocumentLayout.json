@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\frmqlnxb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\frmqlnxb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\DBUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\DBUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\DBSQLServerUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\DBSQLServerUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|c:\\users\\trung\\documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\frmqlbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\frmqlbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|c:\\users\\trung\\documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|c:\\users\\trung\\documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|c:\\users\\trung\\documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\frmqlbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\frmqlbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLNXB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLSP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLSP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLTG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLKH.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLKH.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLTL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLTL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLTG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLNXB.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02534397-EB69-460D-B94D-EAAFC27EBB4C}|quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach.csproj|solutionrelative:quan_ly_cua_hang_sach\\FrmQLSP.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\Program.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\Program.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\Program.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FormMenu.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FormMenu.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FormMenu.cs",
+              "ViewState": "AQIAAAcAAAAAzczMzMwXwA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T21:07:34.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\Helper.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\Helper.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\Helper.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\Helper.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\DBUtils.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\DBUtils.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\DBUtils.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\DBUtils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmQLNXB.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLNXB.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLNXB.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAQwJMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FormMenu.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FormMenu.cs [Design]",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FormMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T21:06:22.157Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBSQLServerUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\DBSQLServerUtils.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\DBSQLServerUtils.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\DBSQLServerUtils.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\DBSQLServerUtils.cs",
+              "ViewState": "AQIAAAEAAAAQAAAAAAAhwBEAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmQLBH.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLBH.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLBH.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLBH.cs [Design]",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLBH.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T19:13:28.858Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmQLBH.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLBH.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLBH.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLBH.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLBH.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:01:06.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmQLNXB.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLNXB.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.cs [Design]",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLNXB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.498Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmQLSP.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmQLSP.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLSP.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAADwvw4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmQLTG.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAA9wIQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmQLKH.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLKH.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLKH.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLKH.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLKH.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmQLTL.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmQLTL.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLTL.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmQLTG.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLTG.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmQLNXB.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.Designer.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLNXB.Designer.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLNXB.Designer.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLNXB.Designer.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAtwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmQLSP.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.Designer.cs",
+              "RelativeDocumentMoniker": "quan_ly_cua_hang_sach\\FrmQLSP.Designer.cs",
+              "ToolTip": "C:\\Users\\Trung\\Documents\\bai tap lon\\quan_ly_cua_hang_sach\\quan_ly_cua_hang_sach\\FrmQLSP.Designer.cs",
+              "RelativeToolTip": "quan_ly_cua_hang_sach\\FrmQLSP.Designer.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAtwPYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:37:21.587Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
